@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="form" class="form">
+        <div class="form-title">
+            <h2>Sign UP</h2>
+        </div>
+        <div class="form-area">
+            <div class="form-item">
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+            </div>
+            <div class="form-item">
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+            </div>
+            <div class="form-item">
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="form-item">
+                <input type="email" name="email" id="email" pattern=".+gmail.com" title="Please type @gmail.com"
+                    placeholder="Email" required>
+            </div>
+            <div class="form-item">
+                <input type="password" name="password" id="password" placeholder="Password" minlength="6" maxlength="10"
+                    title="6 to 10 character">
+            </div>
+            <div class="form-item">
+                <input type="password" name="confirm_pass" id="confirm_pass" placeholder="Confirm Password"
+                    minlength="6" max="10">
+            </div>
+        </div>
+        <div class="form-btn">
+            <input type="submit" value="SIGN UP" class="submit_btn">
+        </div>
+    </form>
+
+</body>
+
+</html>
